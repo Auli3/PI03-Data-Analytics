@@ -42,7 +42,8 @@ For the merged dataset, I performed the following steps:
 - Dropped some entries without 'Incident_Category' data.
 - Dropped some entries without 'Latitude' and 'Longitude' data.
 - Keeped only the columns that I needed for my analysis, being those refering to the incident cause, location, date, fatalities, people onboard, aircraft model and aircraft operator.
-- I created a new column indicating if the crash was produced near the Bermuda Triangle or not, based on the coordinates gathered.
+- I created a new column indicating if the crash was produced near the Bermuda Triangle or not, based on the coordinates gathered and Google Maps for the Bermuda Triangle coordinates.
+![bermuda_triangle_coordenates](https://user-images.githubusercontent.com/107011436/200919930-cdb318c0-065a-4f29-9341-f61573e2cc9c.png)
 - I created a new column indicating if the crash was caused by human doing or not, based on the incident category informatioin gathered.
 - Then I created an ID column to identifie each incident and be able to count them for my analysis.
 - I finished re-ordering the dataframe and normalizing the columns names.
