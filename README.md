@@ -5,7 +5,7 @@
 For this proyect I was given a plane crashes dataset, my task was to realize an EDA over it and look for another dataset to correlationate it with.
 Then load the data to a SQL Database.
 This with the purpose of realizing an analysis of the data and present it on a dashboard.
-I decided to see if there was any correlation between the amount of plane crashes and the Bermuda Triangle.
+I decided to see if there was any correlation between the amount of plane crashes and the Bermuda Triangle, recollecting storms data to use as an explanation.
 
 ## EDA
 
